@@ -163,6 +163,8 @@ export interface Options {
     | 'variant03'
     | 'variant02'
     | 'variant01'
+    | 'variant12'
+    | 'variant11'
   )[];
   hatProbability?: number;
   accessoriesColor?: string[];

@@ -399,7 +399,9 @@ export const schema: StyleSchema = {
           "variant04",
           "variant03",
           "variant02",
-          "variant01"
+          "variant01",
+          "variant12",
+          "variant11"
         ]
       },
       "default": [
@@ -412,7 +414,9 @@ export const schema: StyleSchema = {
         "variant04",
         "variant03",
         "variant02",
-        "variant01"
+        "variant01",
+        "variant12",
+        "variant11"
       ]
     },
     "hatColor": {

@@ -19,4 +19,6 @@ export const hat: ComponentGroup = {
   'variant03': (components: ComponentPickCollection, colors: ColorPickCollection) => `<path d="M4 0h8v1h1v1h1v2H2V2h1V1h1V0Z" fill="${escape.xml(`${colors.hat}`)}"/><path fill="#fff" fill-opacity=".3" d="M13 1v1H3V1zM14 3v1H2V3z"/>`,
   'variant02': (components: ComponentPickCollection, colors: ColorPickCollection) => `<path d="M12 1H4v1H3v2h12V3h-2V2h-1V1Z" fill="${escape.xml(`${colors.hat}`)}"/><path fill="#fff" fill-opacity=".3" d="M11 4h-1V1h1z"/>`,
   'variant01': (components: ComponentPickCollection, colors: ColorPickCollection) => `<path d="M4 0h8v1h1v1h1v3H2V2h1V1h1V0Z" fill="${escape.xml(`${colors.hat}`)}"/><path fill="#fff" fill-opacity=".3" d="M5 0h1v1H5zM4 1h1v1H4zM3 2h1v1H3zM2 3h1v1H2z"/>`,
+  'variant12': (components: ComponentPickCollection, colors: ColorPickCollection) => `<path d="M15 15v-1h-1V3h-1V2h-1V1H4v1H3v1H2v11H1v1H0v1h16v-1h-1ZM4 11v-1H3V4h1V3h8v1h1v6h-1v1h-1v1H5v-1H4Z" fill="${escape.xml(`${colors.hat}`)}"/>`,
+  'variant11': (components: ComponentPickCollection, colors: ColorPickCollection) => `<path d="M13 3V2h-1V1H4v1H3v1H2v11h12V3h-1Zm0 2v5h-1v1h-1v1H5v-1H4v-1H3V4h1V3h8v1h1v1Z" fill="${escape.xml(`${colors.hat}`)}"/>`,
 }
